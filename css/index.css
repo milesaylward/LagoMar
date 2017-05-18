@@ -1,0 +1,100 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a:focus, a:hover{
+  text-decoration: none !important;
+}
+
+.img-header{
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  padding-top: 8vh;
+}
+
+.header-logo{
+  width: 100%;
+}
+
+.header-wrap{
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+.welcome{
+  color: white;
+  font-size: 5vw;
+}
+
+
+.options{
+  margin: 20px 0 0 0;
+}
+
+#scroll{
+  display: block;
+  font-size: 3em;
+  padding-top: 0;
+}
+
+#main{
+  width: 100vw;
+  background-image: url("../images/LagomarBG.png");
+  height: 100vh;
+  background-size: cover;
+  margin-top: -22px;
+}
+
+#scroll:hover{
+  transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 400px){
+  .img-header{
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 500px){
+  .img-header{
+    height: 70vh;
+  }
+}
+@media screen and (min-width: 600px){
+  .img-header{
+    height: 80vh;
+  }
+}
+@media screen and (min-width: 700px){
+  .img-header{
+    height: 100vh;
+  }
+  .header-wrap{
+    max-height: 80vh;
+    border: 30px solid transparent;
+    border-image: url('../images/LagomarBannerBorder.png') 30 30 round;
+    padding: 10% 15% 10% 15%;
+  }
+  .welcome{
+    font-size: 3vw;
+  }
+}

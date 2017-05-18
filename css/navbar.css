@@ -1,0 +1,159 @@
+.navbar-default{
+  margin-top: 20px;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a{
+  width: 150px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white !important;
+}
+
+#my-nav > ul > li.dropdown.open > ul li:nth-child(1),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(4),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(5),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(8),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(9){
+  background-color: #ff8c5f;
+}
+#my-nav > ul > li.dropdown.open > ul li:nth-child(2),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(3),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(6),
+#my-nav > ul > li.dropdown.open > ul li:nth-child(7){
+  background-color: #85c9c7;
+}
+
+#my-nav > ul > li.dropdown.open > ul{
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#my-nav > ul > li.dropdown.open > ul li{
+  width: 50%;
+  text-align: center;
+}
+
+.dropdown-menu>li>a{
+  color: white !important;
+  white-space: normal !important;
+  word-wrap: break-word;
+}
+
+@media screen and (max-width: 767px){
+  #nav > li:nth-child(1) > a,
+  #nav > li:nth-child(3) > a{
+    background-color: #ff8c5f;
+  }
+  #nav > li:nth-child(2) > a,
+  #nav > li:nth-child(4) > a{
+    background-color: #85c9c7;
+  }
+  #my-nav{
+    float: right;
+    margin-right: 5vw;
+  }
+
+  .navbar-default{
+    float: right;
+    width: 50%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+  .active{
+    background-image: url("../images/lagomarhover.png");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .navbar-default{
+    margin-top: 20px;
+    border: none !important;
+    background-color: transparent !important;
+  }
+  li, a{
+    background-color: transparent;
+  }
+  #home-btn{
+    background-color: transparent;
+  }
+
+
+
+  .navbar-nav>.open>a{
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: #008994 !important;
+    font-size: 2em;
+  }
+  #my-nav{
+    margin-right: 0;
+  }
+  #my-nav > ul > li > a{
+    height: 90px;
+    line-height: 70px;
+    width: 135px;
+  }
+  #my-nav > ul > li.dropdown.open > ul{
+    width: 35vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #my-nav > ul > li.dropdown.open > ul li{
+    width: 50%;
+    min-height: 60px;
+    font-size: 2em;
+    text-align: center;
+  }
+  .dropdown-menu>li>a {
+    white-space: normal !important;
+    word-wrap: break-word;
+  }
+  #food-menu>li>a:focus, #food-menu>li>a:hover{
+    background-color: inherit;
+  }
+
+  #food-menu{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
+
+@media screen and (max-width: 1154px){
+  #my-nav > ul > li.dropdown.open > ul{
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 897px){
+  #my-nav > ul > li.dropdown.open > ul{
+    width: 53vw;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #my-nav > ul > li.dropdown.open > ul{
+    width: 75vw;
+  }
+}
