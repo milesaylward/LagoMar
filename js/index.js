@@ -25,8 +25,8 @@ $(function(){
   });
   $('body').on('click', event =>{
     if(event.target.id != 'food-menu-toggle'){
-      $('.food-menu').removeClass('active');
-      $(".home").addClass('active');
+      $foodMenu.removeClass('active');
+      $home.addClass('active');
     }
   });
 });

@@ -1,0 +1,102 @@
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100%;
+  background-image: url("../images/LagomarBG.png");
+  background-size: cover;
+  position: absolute;
+  margin-bottom: 70px;
+}
+
+@font-face {
+  font-family: "Stay Writer";
+  src: url('../Font/Stay_Writer.ttf') format('truetype');
+  src: url('../Font/Stay_Writer.otf') format('opentype');
+  src: url('../Font/Stay_Writer.woff') format('woff');
+  font-weight: normal;
+  font-size: normal;
+}
+
+.carousel img{
+  max-height: 300px;
+}
+
+
+.about-logo{
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.about-wrapper{
+  width: 100%;
+  font-family: "Stay Writer";
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: rgb(1,	122,	137);
+}
+
+.about-text{
+  margin: 25px auto;
+  text-align: center;
+  font-size: 24px;
+  width: 90%;
+}
+
+
+.footer-text{
+  text-align: center;
+  color: rgb(1,	122,	137);
+  font-family: "Stay Writer";
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.amenities{
+  margin: 10px auto;
+  font-size: 24px;
+  text-align: center;
+  width: 90%;
+}
+
+
+@media screen and (min-width: 768px){
+  .about-wrapper{
+    width: 80%;
+  }
+  .about-logo{
+    margin-right: 20px;
+    float: left;
+    width: 40%;
+  }
+  .about-text{
+    width: 100%;
+    text-align: left;
+  }
+  .amenities{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 993px){
+  .about-wrapper{
+    width: 60%;
+  }
+  #page-content{
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+}

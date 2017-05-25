@@ -7,6 +7,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     background: transparent;
 }
+html{
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Stay Writer";
+  src: url('../Font/Stay_Writer.ttf') format('truetype');
+  src: url('../Font/Stay_Writer.otf') format('opentype');
+  src: url('../Font/Stay_Writer.woff') format('woff');
+  font-weight: normal;
+  font-size: normal;
+}
+
+
+
 a:focus, a:hover{
   text-decoration: none !important;
 }
@@ -19,24 +34,31 @@ a:focus, a:hover{
   height: 50vh;
   padding-top: 8vh;
 }
-
+.navbar-default{
+  margin-top: 0;
+}
 .header-logo{
   width: 100%;
+  max-height: 100%;
 }
 
 .header-wrap{
   display: block;
   margin: 0 auto;
   width: 90%;
+  overflow: hidden;
+  max-height: 32vh;
 }
 .welcome{
   color: white;
-  font-size: 5vw;
+  font-size: 10vw;
+  font-family: "Stay Writer";
 }
 
 
 .options{
   margin: 20px 0 0 0;
+font-size: 7vw;
 }
 
 #scroll{
@@ -45,28 +67,231 @@ a:focus, a:hover{
   padding-top: 0;
 }
 
-#main{
+body{
   width: 100vw;
+  overflow-x: hidden;
+  min-height: 100%;
   background-image: url("../images/LagomarBG.png");
-  height: 100vh;
   background-size: cover;
-  margin-top: -22px;
+  position: absolute;
+  margin-bottom: 70px;
 }
 
 #scroll:hover{
-  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.logo-wrapper{
+  display: none;
+}
+
+.mobile-logo{
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+.carousel-container{
+  background-image: url('../images/LagomarBlueOpacity.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 5% 11% 5% 11%;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 30px !important;
+}
+
+.slick-prev{
+  left: -30px !important;
+}
+
+.slick-next{
+  right: -20px !important;
+}
+
+.social, .mobile-social{
+  margin-bottom: 100px;
+}
+
+.contact-container{
+  background-image: url("../images/LagomarPeachOpacity.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+}
+
+.contact-wrap{
+  position: relative;
+  padding: 30px;
+}
+
+.contact-icons{
+  width: 75px;
+  display: block;
+}
+
+.hours{
+  width: 60px;
+}
+
+.contact-info{
+  font-family: "Stay Writer";
+  font-size: 2em;
+  color: white;
+}
+
+.social-header{
+  text-align: center;
+  color: rgb(1,	122,	137);
+  font-family: "Stay Writer";
+  font-size: 3em;
+}
+
+.social-images-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.social-container{
+  margin-bottom: 30px;
+}
+
+.social-images{
+  width: 60px;
+  height: 60px;
+}
+
+.social{
+display: none;
+}
+
+.footer-text{
+  text-align: center;
+  color: rgb(1,	122,	137);
+  font-family: "Stay Writer";
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 
+@media screen and (max-width: 963px){
+  .line.left{
+    width: 12vw;
+  }
+  .line.right{
+    width: 52vw;
+  }
+}
 
+@media screen and (max-width: 767px){
+  #page-content{
+    margin-top: 10px;
+  }
+  .contact-icons{
+    width: 50px;
+  }
+  .contact-info{
+    font-size: 1.75em
+  }
+}
 
+@media screen and (min-width: 960px){
+  .mobile-logo-container{
+    display: none;
+  }
+  #nav{
+    margin-top: 20px;
+  }
+  .logo-wrapper{
+    display: inline-block;
+    width: 100vw;
+    margin-top: -15px;
+  }
+  .line{
+    border: 5px solid rgb(192, 210, 202);
+    display: inline-block;
+  }
 
+  .line.left {
+    width: 15vw;
+  }
+  .logo{
+    width: 30vw;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
 
+  .line.right{
+    width: 50vw;
+    float: right;
+  }
+}
 
-
-
-
-
+@media screen and (min-width: 992px) {
+  .social{
+    display: block;
+    margin-bottom: 200px;
+  }
+  .mobile-social{
+    display: none;
+  }
+  .footer-text{
+    font-size: 1.5em;
+  }
+  .contact-container{
+    margin-top: 0;
+  }
+  .social-container{
+    width: 100%;
+    margin: 20px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .social-images-container{
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .social-images-container > a {
+    margin-left: 20px;
+  }
+  .social-header{
+    display: inline-block;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 3.5em;
+  }
+  #page-content{
+    margin-top: -10px;
+  }
+  .left-container{
+    margin-top: 45px;
+  }
+}
 
 @media screen and (min-width: 400px){
   .img-header{
@@ -91,10 +316,12 @@ a:focus, a:hover{
   .header-wrap{
     max-height: 80vh;
     border: 30px solid transparent;
-    border-image: url('../images/LagomarBannerBorder.png') 30 30 round;
+    -o-border-image: url('../images/LagomarBannerBorder.png') 30 30 round;
+       border-image: url('../images/LagomarBannerBorder.png') 30 30 round;
     padding: 10% 15% 10% 15%;
+    overflow: hidden;
   }
   .welcome{
-    font-size: 3vw;
+    font-size: 5vw;
   }
 }

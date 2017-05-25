@@ -1,0 +1,378 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+@font-face {
+  font-family: "Stay Writer";
+  src: url('../Font/Stay_Writer.ttf') format('truetype');
+  src: url('../Font/Stay_Writer.otf') format('opentype');
+  src: url('../Font/Stay_Writer.woff') format('woff');
+  font-weight: normal;
+  font-size: normal;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  min-height: 100%;
+  background-image: url("../images/LagomarBG.png");
+  background-size: cover;
+  position: absolute;
+  margin-bottom: 70px;
+}
+.logo-wrapper{
+  display: none;
+}
+.mobile-logo{
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+.footer-text{
+  text-align: center;
+  color: rgb(1,	122,	137);
+  font-family: "Stay Writer";
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main-container{
+  padding-bottom: 70px;
+}
+
+#menu{
+  font-family: "Stay Writer";
+}
+
+.easyPaginateNav{
+  text-align: center;
+  margin: 10px auto;
+  font-family: "Coming Soon";
+}
+.easyPaginateNav a {
+  padding: 10px;
+  color: rgb(61, 153, 153);
+  font-size: 20px;
+}
+.easyPaginateNav a.current {
+  font-weight:bold;
+  text-decoration:underline;
+}
+
+.to-top{
+  text-align: center;
+}
+
+a.scroll-main{
+  text-align: center;
+  font-size: 30px;
+  color: rgb(61, 153, 153);
+}
+
+.menu-line{
+  border: 1px solid rgb(242, 145, 102);
+  display: inline-block;
+  width: 15%;
+}
+.menu-item{
+  font-family: "Stay Writer";
+  text-align: center;
+}
+
+/********************** Pizza Menu ********************************/
+
+.menu-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu-header{
+  margin: 5px 3px 0 3px;
+  font-family: "Stay Writer";
+  font-size: 2.2em;
+  color: rgb(61, 153, 153)
+
+}
+
+.sizes, .prices{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Stay Writer";
+}
+.item-header{
+  color: rgb(1, 92, 126);
+  margin-bottom: 0;
+}
+
+.ingredients, .special{
+  margin: 0;
+  color: rgb(127, 42, 0);
+}
+
+
+/*********************** Build Your Own ***********************/
+
+
+.BYO {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.byo-wrapper, .style{
+  color: rgb(127, 42, 0);
+}
+
+.byo-header, .special-price, .size-wrapper, .tab-header{
+  color: rgb(1, 92, 126);
+}
+.toppings{
+  font-size: 16px;
+}
+
+.byo-sizes{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 20%
+}
+
+.byo-sizes > p, .byo-prices{
+  font-size: 20px;
+}
+
+.byo-prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: -5%;
+}
+
+
+
+
+/******************** Seafood *****************************/
+
+.price{
+  margin-top: 10px;
+}
+
+
+
+/*********************** Subs ******************************/
+
+#nav-tabs{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: none;
+  font-size: 14px;
+}
+
+.subs{
+  font-size: 1.75em;
+  margin-top: 5px;
+}
+
+.sub-menu-wrapper{
+  margin-top: 20px;
+}
+.size-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 70%;
+  margin: 5px auto;
+}
+
+.size-wrapper h3{
+  margin: 0;
+  letter-spacing: 2px;
+}
+.size-wrapper .sub-price{
+  margin-top: 4px;
+}
+.inches{
+  font-size: 28px;
+}
+
+#nav-tabs .active a{
+  background-color: rgba(251, 181, 143, .7);
+  border: none;
+  color: white;
+}
+
+#nav-tabs > li > a:hover{
+  border: none;
+  background-color: rgba(191, 210, 202, 0.7);
+  color: white;
+}
+
+
+.tab-header{
+  margin-bottom: 0;
+}
+.tab-price{
+    margin-top: 0;
+}
+
+/*********************** Pasta *********************/
+
+.pasta-type{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/******************* Kids Menu *******************/
+.sparkle{
+  width: 25px;
+  height: auto;
+}
+.ice-cream{
+  margin: 0 5px;
+  font-size: 40px;
+}
+.ice-cream-header{
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+
+/******************* specials *******************/
+
+.specials-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.special-price{
+  text-decoration: underline;
+}
+.special-items{
+  text-align: center;
+}
+
+@media screen and (max-width: 767px){
+  .stromboli-header{
+    font-size: 1.75em;
+    margin-top: 8px;
+  }
+  .strom-line{
+    width: 10%;
+  }
+}
+
+@media screen and (min-width: 960px){
+  .BYO{
+    font-size: 2.5em;
+    margin-top: 5px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .mobile-logo-container{
+    display: none;
+  }
+  .logo-wrapper{
+    display: inline-block;
+    width: 100vw;
+    margin-top: -15px;
+  }
+  .line{
+    border: 5px solid rgb(192, 210, 202);
+    display: inline-block;
+  }
+
+  .line.left {
+    width: 15vw;
+  }
+  .logo{
+    width: 30vw;
+    margin-top: -50px;
+    margin-left: 5px;
+  }
+
+  .line.right{
+    width: 50vw;
+    float: right;
+  }
+  .menu-line{
+    width: 25%;
+  }
+  .strom-line{
+    width: 15%;
+  }
+  #menu{
+    margin-top: 50px;
+  }
+  .menu-header{
+    font-size: 3em;
+    margin-top: 0;
+  }
+  .byo-wrapper p {
+    font-size: 22px;
+  }
+
+  .subs{
+    font-size: 2.25em;
+    margin-top: 5px;
+  }
+
+  #nav-tabs, .style, .ingredients{
+    font-size: 20px;
+  }
+  .size-wrapper{
+    max-width: 50%;
+  }
+
+  .special-price{
+    font-size: 30px;
+  }
+  .special{
+    font-size: 24px;
+  }
+}

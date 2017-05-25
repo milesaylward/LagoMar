@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "Stay Writer";
+  src: url('../Font/Stay_Writer.ttf') format('truetype');
+  src: url('../Font/Stay_Writer.otf') format('opentype');
+  src: url('../Font/Stay_Writer.woff') format('woff');
+  font-weight: normal;
+  font-size: normal;
+}
+
+
+
+body.slide-active {
+    overflow-x: hidden
+}
+
+.no-margin-top {
+    margin-top: 0px!important
+}
+
+#page-content {
+    position: relative;
+    left: 0;
+}
+#page-content.slide-active {
+    padding-top: 0
+}
+
+.navbar-default{
+  margin-top: 20px;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+#nav>.active>a, #nav>.open>a{
+  background-color: transparent;
+}
+
+#slide-nav .navbar-toggle {
+    cursor: pointer;
+    position: relative;
+    line-height: 0;
+    float: left;
+    margin: 0;
+    width: 30px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    border: 0;
+    background: transparent;
+}
+
+#slide-nav .navbar-toggle > .icon-bar {
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin: 5px 0 0 0;
+}
+
+#slide-nav .navbar-toggle .icon-bar{
+  background-color: rgb(178, 212, 206)
+}
+#slide-nav .navbar-toggle.slide-active .icon-bar {
+    background: orange
+}
+.navbar-header {
+    position: relative
+}
+
+.navbar.navbar-fixed-top.slide-active {
+    position: relative
+}
+
+@media (max-width:767px) {
+	#slide-nav .container {
+	    margin: 0!important;
+	    padding: 0!important;
+      height:100%;
+	}
+	#slide-nav .navbar-header {
+	    margin: 0 auto;
+	    padding: 0 15px;
+	}
+	#slide-nav .navbar.slide-active {
+	    position: absolute;
+	    width: 80%;
+	    top: -1px;
+	    z-index: 1000;
+	}
+	#slide-nav #slidemenu {
+	    left: -100%;
+	    width: 80%;
+	    min-width: 0;
+	    position: absolute;
+	    padding-left: 0;
+	    z-index: 2;
+	    top: 0px;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav {
+	    min-width: 0;
+	    width: 100%;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+	    min-width: 0;
+	    width: 80%;
+	    white-space: normal;
+	}
+	#slide-nav {
+	    border-top: 0
+	}
+  #nav>.nav-active>a, #nav>.open>a, #nav>li>a:hover, #nav .dropdown-menu>li>a:hover {
+    background-color: rgb(255,	233,	209);
+  }
+  #nav>li>a{
+    font-size: 2.5em;
+    color: rgb(7,	134, 147) ;
+    font-family: "Stay Writer";
+    text-transform: uppercase;
+  }
+   #nav .dropdown-menu>li>a{
+    color: rgb(7,	134, 147) ;
+    font-family: "Stay Writer";
+    font-size: 2em;
+  }
+
+	#navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+      bottom:0;
+	    width: 80%;
+	    left: -80%;
+	    background-color: rgba(183, 212, 204, .6);
+	}
+}
+@media (min-width:768px) {
+	#page-content {
+	    left: 0!important
+	}
+
+  #nav{
+    margin-right: 20px;
+  }
+	.navbar.navbar-fixed-top.slide-active {
+	    position: fixed
+	}
+	.navbar-header {
+	    left: 0!important
+	}
+  .nav-active{
+    background-image: url("../images/lagomarhover.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .navbar-default{
+    margin-top: 20px;
+    border: none !important;
+    background-color: transparent !important;
+  }
+  li, a{
+    background-color: transparent;
+  }
+  #home-btn{
+    background-color: transparent;
+  }
+
+  .navbar-nav>.open>a{
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav>li>a{
+    color: #008994 !important;
+    font-size: 2.75vw;
+    font-family: "Stay Writer";
+    text-transform: uppercase;
+  }
+  #food-menu>li>a:focus, #food-menu>li>a:hover{
+    background-color: inherit;
+  }
+
+  #food-menu{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #nav > li.dropdown.open > ul{
+    width: 35vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  #nav > li.dropdown.open > ul li{
+    width: 50%;
+    min-height: 60px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  #food-menu > li > a {
+    white-space: normal;
+    word-wrap: break-word;
+    color: white;
+    font-family: "Stay Writer";
+    font-size: 1.5em;
+  }
+  #nav > li.dropdown.open > ul li:nth-child(1),
+  #nav > li.dropdown.open > ul li:nth-child(4),
+  #nav > li.dropdown.open > ul li:nth-child(5),
+  #nav > li.dropdown.open > ul li:nth-child(8),
+  #nav > li.dropdown.open > ul li:nth-child(9){
+    background-color: #ff8c5f;
+  }
+  #nav > li.dropdown.open > ul li:nth-child(2),
+  #nav > li.dropdown.open > ul li:nth-child(3),
+  #nav > li.dropdown.open > ul li:nth-child(6),
+  #nav > li.dropdown.open > ul li:nth-child(7),
+  #nav > li.dropdown.open > ul li:nth-child(10),
+  #nav > li.dropdown.open > ul li:nth-child(11){
+    background-color: #85c9c7;
+  }
+}
+
+@media screen and (max-width: 1154px){
+  #nav > li.dropdown.open > ul{
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 897px){
+  #nav > ul > li.dropdown.open > ul{
+    width: 53vw;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #nav > ul > li.dropdown.open > ul{
+    width: 75vw;
+  }
+}
