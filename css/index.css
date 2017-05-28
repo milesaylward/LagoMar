@@ -47,14 +47,20 @@ a:focus, a:hover{
   margin: 0 auto;
   width: 90%;
   overflow: hidden;
-  max-height: 32vh;
+  max-height: 40vh;
 }
 .welcome{
   color: white;
   font-size: 10vw;
   font-family: "Stay Writer";
 }
-
+iframe{
+  height: 100%;
+}
+.iframe{
+  margin-bottom: 100px;
+  height: 500px;
+}
 
 .options{
   margin: 20px 0 0 0;
@@ -86,17 +92,12 @@ body{
   display: none;
 }
 
-.mobile-logo{
-  max-width: 80%;
-  margin-bottom: 30px;
-}
-
 .carousel-container{
   background-image: url('../images/LagomarBlueOpacity.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 5% 11% 5% 11%;
+  padding: 5% 11% 0 11%;
 }
 
 .slick-prev:before, .slick-next:before {
@@ -112,7 +113,7 @@ body{
 }
 
 .social, .mobile-social{
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .contact-container{
@@ -141,6 +142,12 @@ body{
   font-family: "Stay Writer";
   font-size: 2em;
   color: white;
+}
+
+.disclaimer{
+  font-family: "Stay Writer";
+  color: rgb(1, 122, 137);
+  font-size: 26px;
 }
 
 .social-header{
@@ -215,9 +222,6 @@ display: none;
 }
 
 @media screen and (min-width: 960px){
-  .mobile-logo-container{
-    display: none;
-  }
   #nav{
     margin-top: 20px;
   }
@@ -249,7 +253,7 @@ display: none;
 @media screen and (min-width: 992px) {
   .social{
     display: block;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
   }
   .mobile-social{
     display: none;

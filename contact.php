@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Lago Mar | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/nav2.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -29,12 +30,16 @@
         </div>
         <div class="info text-center">
           <div class="text-container">
-            <a href="https://www.google.com/maps/place/Lago+Mar+Pizza/@36.7460454,-75.9955836,16.79z/data=!4m5!3m4!1s0x89bac161b9bb61a9:0x3238f445b7952e77!8m2!3d36.7459399!4d-75.994443" target="_blank">
-              <h2 class="address">1756 Sandbridge Rd Virginia Beach, Va 23456</h2>
-            </a>
-            <a href="tel:7577212500">
-              <h2>(757) 721 2500</h2>
-            </a>
+            <h2 class="address">
+              <a href="https://www.google.com/maps/place/Lago+Mar+Pizza/@36.7460454,-75.9955836,16.79z/data=!4m5!3m4!1s0x89bac161b9bb61a9:0x3238f445b7952e77!8m2!3d36.7459399!4d-75.994443" target="_blank">
+                1756 Sandbridge Rd Virginia Beach, Va 23456
+              </a>
+            </h2>
+            <h2>
+              <a href="tel:7577212500">
+              (757) 721 2500
+              </a>
+            </h2>
           </div>
         </div>
         <div class="content-container">
@@ -42,11 +47,10 @@
             <img id="contact-image" src="images/contact/contact-image.png" alt="" class="img-responsive">
             <h3 class=" location-header text-center"> Delivering to many Major VB Areas including:</h3>
             <ul class="locations">
-              <li>Princess Anne Park</li>
-              <li>Pungo</li>
               <li>Sandbridge</li>
-              <li>Rudee Inlet</li>
-              <li>Lake Placid</li>
+              <li>Pungo</li>
+              <li>South of Rudee Inlet</li>
+              <li>London Bridge / Dam Neck</li>
             </ul>
           </div>
           <div class="border-image">

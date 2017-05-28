@@ -48,8 +48,10 @@ body{
   width: 100%;
   margin-top: 60px;
 }
-
-.text-container > a:hover {
+.text-container > h2 > a{
+  color: rgb(1, 92, 126);
+}
+.text-container > h2 > a:hover {
   text-decoration: none;
 }
 
@@ -116,7 +118,7 @@ body{
 }
 
 .locations{
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   font-size: 20px;
 }
@@ -176,7 +178,9 @@ body{
     width: 50vw;
     float: right;
   }
-
+  .text-container > a {
+    width: 300px;
+  }
   .hours-header{
     font-size: 48px;
   }
@@ -186,8 +190,10 @@ body{
   .info{
     margin-top: 30px;
   }
+
   .info h2{
     font-size: 36px;
+    width: 300px;
   }
 
   .hours-img-container{

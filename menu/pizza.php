@@ -27,7 +27,7 @@
                 </h4>
                 <div class="prices">
                   <h3>14.99</h3>
-                  <h3>15.99</h3>
+                  <h3>16.99</h3>
                   <h3>18.99</h3>
                   <h3>20.99</h3>
                 </div>
@@ -60,7 +60,7 @@
                 </div>
               </section>
               <section class="menu-item">
-                <h2 class="item-header">Low Fat White Veggie</h2>
+                <h2 class="item-header">White Veggie</h2>
                 <h4 class="ingredients">
                   (White Sauce)<br>
                   Feta Cheese, Mushrooms,

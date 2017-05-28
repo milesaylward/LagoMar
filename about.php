@@ -32,25 +32,26 @@
         <div class="about-wrapper">
           <img src="images/about/about-logo.png" alt="Lago Mar Logo" class="about-logo">
           <h4 class="about-text">
-            is a family friendly restaurant.
-            We have prided ourselves on catering
-            to all ages since 1993, located in the
-            Sandbridge area of Virginia Beach.
-            Community involvement is important to us.
-            We are more than just another business whether it's
-            supporting local schools, churches, or sponsoring sports teams
-            we strive to be a part of what makes Virginia Beach so great.
-            Bring the little ones along to enjoy our Ice Cream and
-            free video games. Don't worry we don't judge adults who
-            love video games either. Our pizzas are one of a kind,
-            The Lago Mar, Portuguese, Mediterranean and
-            White Veggie are just a few of our specialites.
-            But we do much more than just a killer pizza,
-            so be sure to peruse our menu of Appetizers
-            (Hot Wings, Garlic Knots, Calamari) to name a few,
-            Salads (Chicken Caesar, Greek), Gyros and Wraps.
-            And don't overlook our Italian dinners (served
-            with garlic bread and a house salad).
+            We are a family owned and operated restaurant located in the Sandbridge area
+            of Virginia Beach. We've prided ourselves on catering to all ages since first
+            opening in 1993. Since then, we've made community involvement a priority,
+            whether it's supporting local schools and churches, or sponsoring sports teams.
+            We strive to be a part of what makes Virginia Beach so great.
+          </h4>
+          <h4 class="about-text">
+            Our pizzas are one of a kind. And for that reason, we haven't changed the way we
+            make our pizzas, and the quality of our ingredients, in over 20 years!
+            The Lago Mar, Portuguese, Mediterranean, and White Veggie are just a few of
+            our popular specialties. But we do much more than just a killer pizza.
+            We offer a variety of menu choices including Appetizers
+            (our Hot Wings and Garlic Knots are customer favorites!), Stromboli, Subs,
+            Salads, Pasta Dinners, and much more! Peruse our menu and you'll agree,
+            we have something for everyone!
+          </h4>
+          <h4 class="amenities text-center">
+            If you find yourself in need of a good pizza and even better company
+            stop by Lago Mar Pizza today or feel free to give us a call
+            and we'll come to you!
           </h4>
           <h4 class="amenities">
             Additional Amenities: Indoor &amp; Outdoor Seating;

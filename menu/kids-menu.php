@@ -45,7 +45,7 @@
               </div>
             </div>
             <h4 class="ingredients">
-              The best part of any kids visit to Lago Mar!<br>
+              The best part of any kid's visit to Lago Mar!<br>
               Flavors Vary
             </h4>
             <div class="text-center">

@@ -13,7 +13,7 @@
           </ul>
           <div id="desserts" class="">
             <section class="menu-item">
-              <h2 class="item-header">Backlava</h2>
+              <h2 class="item-header">Baklava</h2>
               <h4 class="ingredients">
                 Greek Pastry Layered with honey and walnuts
               </h4>
@@ -31,7 +31,7 @@
               </div>
             </section>
             <section class="menu-item">
-              <h2 class="item-header">Canoli</h2>
+              <h2 class="item-header">Cannoli</h2>
               <h4 class="ingredients">
                 Tube-shaped pastry filled with sweet cream and chocolate chips
               </h4>

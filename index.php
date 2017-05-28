@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Lago Mar Pizza</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/nav2.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -36,9 +38,6 @@
         </div>
       </div>
       <div id="page-content">
-        <div class="col-xs-12 mobile-logo-container">
-          <img src="images/lagomarlogo.png" alt="Lago Mar Logo" class="mobile-logo center-block">
-        </div>
         <div class="row">
           <div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 left-container">
             <div class="carousel-container">
@@ -48,6 +47,7 @@
                 <img src="images/specials/wednesday.png" alt="monday specials" class="img-responsive">
                 <img src="images/specials/thursday.png" alt="monday specials" class="img-responsive">
               </div>
+              <p class="disclaimer text-center">Daily specials dine in only</p>
             </div>
             <div class="social">
               <div class="social-container">
@@ -99,6 +99,9 @@
               </a>
             </div>
           </div>
+        </div>
+        <div class="col-md-4 col-md-offset-7 col-xs-12 iframe">
+          <iframe src="http://lagomar.x10host.com/" height="500px" width="300px" class="center-block"></iframe>
         </div>
         <div class="row">
           <?php include 'includes/footer.php'; ?>

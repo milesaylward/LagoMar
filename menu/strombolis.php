@@ -3,11 +3,11 @@
         <div id="menu" class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
           <div class="menu-container">
               <hr class="menu-line strom-line">
-              <h1 class="menu-header stromboli-header">Strombolis &amp; Calzones</h1>
+              <h1 class="menu-header stromboli-header">Stromboli &amp; Calzones</h1>
               <hr class="menu-line strom-line">
           </div>
           <h4 class="text-center">
-            Our Strombolis &amp; Calzones are made with fresh dough.
+            Our Stromboli &amp; Calzones are made with fresh dough.
             Wrapped and baked to perfection, served with a side of
             marinara sauce. Made large for sharing!
           </h4>
@@ -23,7 +23,7 @@
           <section class="menu-item">
             <h2 class="item-header">Calzone</h2>
             <h4 class="ingredients">
-              Mozzarella Cheese, Parmesan Cheese &amp; Ricotta
+              Mozzarella Cheese, Parmesan Cheese, &amp; Ricotta
             </h4>
             <div class="text-center">
               <h3 class="price">12.99</h3>

@@ -9,7 +9,7 @@
           <div id="tab-container" class="tab-container text-center">
             <ul id="nav-tabs" class="nav nav-tabs center-block">
               <li class="tab"><a href="#subs">SUBS</a></li>
-              <li class="tab"><a href="#italian-subs">ITALIAN SUBS</a></li>
+              <li class="tab"><a href="#parmigiana-subs">PARMIGIANA SUBS</a></li>
               <li class="tab"><a href="#gyros">GYROS</a></li>
               <li class="tab"><a href="#wraps">WRAPS</a></li>
             </ul>
@@ -25,26 +25,26 @@
                 </div>
                 <h4 class="style">
                   Served hot on and Italian roll with lettuce,
-                  tomatoes, onions, Italian dressing
-                  mayonnaise and Mozzerella Cheese.
+                  tomatoes, onions, Italian dressing,
+                  mayonnaise, and Mozzerella Cheese.
                 </h4>
                 <div id="pagination">
                   <section class="menu-item">
                     <h2 class="item-header">Italian Combo</h2>
                     <h4 class="ingredients">
-                      Pepperoni, Ham &amp; Salami
+                      Pepperoni, Ham, &amp; Salami
                     </h4>
                   </section>
                   <section class="menu-item">
                     <h2 class="item-header">All American</h2>
                     <h4 class="ingredients">
-                      Ham, Turkey &amp; Roast Beef
+                      Ham, Turkey, &amp; Roast Beef
                     </h4>
                   </section>
                   <section class="menu-item">
                     <h2 class="item-header">Club Sub</h2>
                     <h4 class="ingredients">
-                      Ham, Turkey &amp; Bacon
+                      Ham, Turkey, &amp; Bacon
                     </h4>
                   </section>
                   <section class="menu-item">
@@ -59,7 +59,7 @@
                   <section class="menu-item">
                     <h2 class="item-header">Vegetarian</h2>
                     <h4 class="ingredients">
-                      Green Peppers, Mushrooms, Black Olives &amp; Tomatoes
+                      Green Peppers, Mushrooms, Black Olives, &amp; Tomatoes
                     </h4>
                   </section>
                   <section class="menu-item">
@@ -77,19 +77,19 @@
                   <section class="menu-item">
                     <h2 class="item-header">Chicken Philly</h2>
                     <h4 class="ingredients">
-                      Twist on a classic made with grilled chicken &amp; onions
+                      Made with grilled onions
                     </h4>
                   </section>
                   <section class="menu-item">
                     <h2 class="item-header">Steak Philly</h2>
                     <h4 class="ingredients">
-                      The City of Brotherly Love's favorite, an American classic
+                      Steak &amp; cheese made with grilled onions
                     </h4>
                   </section>
                 </div>
               </div>
             </div>
-            <div id="italian-subs">
+            <div id="parmigiana-subs">
               <div class="sub-menu-wrapper">
                 <div class="size-wrapper">
                   <h3>Any <span class="inches">12"</span> Sub</h3>
@@ -135,7 +135,7 @@
               <h4 class="style">
                 All Gyros served on a toasted pita with lettuce,
                 tomatoes, onions, Italian dressing, and
-                Tatziki Sauce
+                tzatziki sauce
               </h4>
               <section class="menu-item">
                 <h2 class="item-header">Lamb Gyro</h2>
@@ -157,19 +157,19 @@
               <section class="menu-item">
                 <h2 class="item-header">BBQ Chicken</h2>
                 <h4 class="ingredients">
-                  Grilled Chicken, Lettuce, Parmesan Cheese &amp; BBQ Sauce
+                  Grilled Chicken, Lettuce, Parmesan Cheese, &amp; BBQ Sauce
                 </h4>
               </section>
               <section class="menu-item">
                 <h2 class="item-header">Chicken Caesar</h2>
                 <h4 class="ingredients">
-                  Grilled Chicken, Lettuce, Tomatoes, Parmesan Cheese &amp; Caesar Dressing
+                  Grilled Chicken, Lettuce, Tomatoes, Parmesan Cheese, &amp; Caesar Dressing
                 </h4>
               </section>
               <section class="menu-item">
                 <h2 class="item-header">Buffalo Chicken</h2>
                 <h4 class="ingredients">
-                  Grilled Chicken, Lettuce, Parmesan Cheese, Ranch Dressing &amp; Hot Sauce
+                  Grilled Chicken, Lettuce, Parmesan Cheese, Ranch Dressing, &amp; Hot Sauce
                 </h4>
               </section>
             </div>

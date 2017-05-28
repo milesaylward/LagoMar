@@ -102,7 +102,7 @@ body.slide-active {
 	}
 	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
 	    min-width: 0;
-	    width: 80%;
+	    width: 80vw;
 	    white-space: normal;
 	}
 	#slide-nav {
